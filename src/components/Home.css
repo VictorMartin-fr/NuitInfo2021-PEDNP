@@ -1,0 +1,54 @@
+.text {
+    font-size: 1.2em;
+}
+
+.article-image {
+    width: 100%;
+    height: 100%;
+}
+
+#changeLanguage {
+    background-size: 30px 30px;
+    width: 45px;
+    height: 45px;
+    filter: grayscale(100%);
+    border: none;
+    border-radius: 50%;
+    transition: background-color .21s ease-in-out, filter .21s ease-in-out;
+}
+
+#changeLanguage:hover,
+#changeLanguage:focus {
+    filter: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#changeLanguage.clicked {
+    filter: none !important;
+    background-color: #fff;
+}
+
+
+/* Btn */
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+}
+
+.language-btn > button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0.55em;
+    border: none;
+    margin-right: 1.2em;
+}
+
+button.english > img {
+    
+}

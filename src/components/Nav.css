@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--bg-dark);
+    height: 3.4em;
+    padding: 0 0.89em;
+}
+
+.nav-link {
+    color: var(--txt-dark) !important;
+}
+
+.nav-link:hover {
+    color: var(--hover-lk) !important;
+
+    transition: color .21s ease-out;
+}

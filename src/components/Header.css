@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+}
+
+.banner {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -0.55em !important;
+}
+
+.banner > img {
+    width: 100%;
+}
+

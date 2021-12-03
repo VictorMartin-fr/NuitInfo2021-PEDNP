@@ -1,0 +1,47 @@
+#darkMode {
+    background-size: 30px 30px;
+    width: 45px;
+    height: 45px;
+    filter: grayscale(100%);
+    border: none;
+    border-radius: 50%;
+    transition: background-color .21s ease-in-out, filter .21s ease-in-out;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+    filter: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#darkMode.clicked {
+    filter: none !important;
+    background-color: #fff;
+}
+
+.toggleBtn.click {
+    color: #221a1a;
+}
+
+
+/* Icons RS */
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.icons > a {
+    text-decoration: none;
+    color: var(--hover-lk);
+    margin-right: 1.2em;
+    font-size: 1.2em;
+}
+
+.icons > a:hover {
+    color: var(--hover-lk);
+    transition: color .21s ease-out;
+}
+
